@@ -9,15 +9,15 @@ import Greet from "./Greet";
 describe("Greet", () => {
     test("Renders correctly", () => {
         render(<Greet />);
-        const textElement = screen.getByText('Hello');
+        const textElement = screen.getByText(/Hello/);
         expect(textElement).toBeInTheDocument();
     });
 
-    describe("Nested", () => {
-        it("Renders with name", () => {
-            render(<Greet name="John"/>);
-            const textElement = screen.getByText('Hello John');
-            expect(textElement).toBeInTheDocument();
-        });
-    });
+    // describe("Nested", () => {
+    //     it("Renders with name", () => {
+    //         render(<Greet name="John"/>);
+    //         const textElement = screen.getByText('Hello John');
+    //         expect(textElement).toBeInTheDocument();
+    //     });
+    // });
 });

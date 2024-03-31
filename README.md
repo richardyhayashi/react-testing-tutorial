@@ -32,7 +32,7 @@ Testing Types
 11. Filtering Tests
 12. Grouping Tests
 13. Filename Conventions
-14.
+14. Code Coverage
 15.
 16.
 17.
