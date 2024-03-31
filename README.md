@@ -28,10 +28,10 @@ Testing Types
 7. Anatomy of a Test
 8. Your First Test
 9. Test Driven Development
-10.
-11.
-12.
-13.
+10. Jest Watch Mode
+11. Filtering Tests
+12. Grouping Tests
+13. Filename Conventions
 14.
 15.
 16.
